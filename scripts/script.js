@@ -1,5 +1,5 @@
 fetch(`https://www.swapi.tech/api/films`)
- .then((res) => res.json())
+  .then((res) => res.json())
   .then((data) => {
     console.log(data)
     const phantomName = document.getElementById('empire')
@@ -8,7 +8,7 @@ fetch(`https://www.swapi.tech/api/films`)
     const strikesVar = document.getElementById('menace')
     const jediName = document.getElementById('clones')
     const forceName = document.getElementById('awake')
-  
+
     for (let index = 0; index < data.result.length; index++) {
       phantomName.innerHTML = `Episode 1: ${data.result[0].properties.title}`
       clonesDiv.innerHTML = `Episode 2: ${data.result[1].properties.title}`
@@ -18,6 +18,3 @@ fetch(`https://www.swapi.tech/api/films`)
       forceName.innerHTML = `Episode 6: ${data.result[5].properties.title}`
     }
   })
-
-                      
-

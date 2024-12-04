@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .container {
@@ -18,7 +18,7 @@
 }
 
 .phantom {
-  background-color: hwb(248 34% 4%);
+  background-color: #6c57f5;
   padding: 1.5rem;
   border-radius: 10px;
   width: 200px;
@@ -29,18 +29,17 @@
   padding: 1.5rem;
   border-radius: 10px;
   width: 200px;
-   
 }
 
 .revenge {
-  background-color: hwb(304 39% 8%);
+  background-color: #eb63e2;
   padding: 1.5rem;
   border-radius: 10px;
   width: 200px;
 }
 
 .strikes {
-  background-color: hwb(304 39% 8%);
+  background-color: #eb63e2;
   padding: 1.5rem;
   border-radius: 10px;
   width: 200px;
@@ -48,7 +47,7 @@
 }
 
 .jedi {
-  background-color: hwb(248 34% 4%);
+  background-color: #6c57f5;
   padding: 1.5rem;
   border-radius: 10px;
   width: 197px;
