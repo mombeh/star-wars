@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  background-color: #a2ecd4;
+  width: 800px;
+  margin-top: 50px;
+  justify-self: center;
+}
+
+.first-episode {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.phantom {
+  background-color: #6c57f5;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.clones {
+  background-color: #f0c57f;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.revenge {
+  background-color: #eb63e2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.strikes {
+  background-color: #eb63e2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.jedi {
+  background-color: #6c57f5;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 197px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.force {
+  background-color: #f0c57f;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 10px;
+}
